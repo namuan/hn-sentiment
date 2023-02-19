@@ -16,19 +16,23 @@ Use VaderSentiment to analyze the sentiment of a post on HackerNews.
 
 ---
 
-## Pre-requisites
-
-
-
 ## Installation
 
 ```sh
 pip install hn-sentiment
 ```
 
+## Usage
+
+To run it against a single HackerNews post, copy the post id from the URL and run the following command:
+
+```shell
+hn-sentiment -s 34846476 -o target/34846476-sentiment.md
+```
+
 ## Acknowledgements
 
-- [VaderSentiment](https://example.org)
+- [VaderSentiment](https://pypi.org/project/vaderSentiment/)
 
 ## Development
 
@@ -59,4 +63,4 @@ Once the release is published, `.github/workflows/publish.yml` will automaticall
 
 ### Disclaimer
 
-This project is not affiliated with PlantUML.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
